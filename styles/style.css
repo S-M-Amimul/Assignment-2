@@ -47,6 +47,14 @@
     align-items: center;
     gap: 5px;
 }
+.btn-primary , .btn-secondary{
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
 
 .btn-secondary {
     color: #00FF88;
@@ -61,7 +69,10 @@
     align-items: center;
     gap: 5px;
 }
-
+.btn-secondary:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
 .section-title {
     font-size: 3rem;
     font-weight: bold;
@@ -74,6 +85,15 @@ h4 {
     font-size: 1.5rem;
     font-weight: 700;
 
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #00FF88;
 }
 
 /*                                                                      navbar related styles                */
