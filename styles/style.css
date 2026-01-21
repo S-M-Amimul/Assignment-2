@@ -4,7 +4,11 @@
     font-weight: 400;
     font-style: normal;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*                                                                shared styles                        */
 .display-flex {
     display: flex;
@@ -413,7 +417,7 @@ footer p {
     align-items: center;
     width: 100%;
 }
-
+                                                       /* media screen 576 px  */
 @media screen and (max-width:576px) {
     .nav-button {
         display: none;
