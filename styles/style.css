@@ -72,18 +72,6 @@ h4 {
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*                                                                      navbar related styles                */
 .navbar {
     justify-content: space-between;
@@ -312,4 +300,47 @@ hr {
     background-color: #351165;
     padding: 40px;
     border-radius: 40px;
+}
+.host ul {
+    padding-left: 0;   
+    margin-left: 0;
+}
+ /*                                                                        footer section  */
+ footer{
+    background-image: url("../assets/footer-bg.png");
+    height: 412px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+ }
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-left: 0;   
+    margin-left: 0;
+}
+.footer-title {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.footer-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+footer p {
+    opacity: 0.6;
+}
+.footer-container {
+    position: absolute;
+    top:20% ;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
 }
