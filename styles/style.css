@@ -214,7 +214,7 @@ hr {
     background-color: #230E3D;
     padding: 7.5rem  12.5rem;
 }
-.card-container {
+.card-container  {
     display: grid;
     gap: 1.875rem;
     grid-template-columns: repeat(3,1fr);
@@ -241,3 +241,52 @@ hr {
 }
 
 /*                                                                           episode section  */
+.video-area {
+    width: 380px;
+    height: 214px;
+    position: relative;
+    background-position: cover;
+    border-radius: 35px  35px  0  0;
+    
+}
+.thumbnail-1 {
+    background-image: url("../assets/video1.jpg");
+    
+}
+.thumbnail-2 {
+    background-image: url("../assets/video2.jpg");
+}
+.thumbnail-3 {
+    background-image: url("../assets/video3.jpg");
+}
+.play-btn {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 40%;
+    z-index: 1;
+    top: 40%;
+}
+.video-container {
+    display: grid;
+    gap: 1.875rem;
+    grid-template-columns: repeat(3,1fr);
+}
+#featured {
+    padding: 7.5rem  12.5rem;
+}
+.video-box {
+    background-color: #230E3D;
+    border-radius: 35px;
+    width: 380px;
+    height: auto;
+    
+
+
+}
+.video-idea {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 1.5rem;
+}
